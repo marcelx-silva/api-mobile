@@ -1,0 +1,23 @@
+{
+  "name": "api-mobile",
+  "version": "1.0.0",
+  "description": "API para E-commerce desenvolvida na aula de Dispositivos Mobile",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcelx-silva/api-mobile.git"
+  },
+  "keywords": [
+    "API",
+    "mobile"
+  ],
+  "author": "Thiago Marcelo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marcelx-silva/api-mobile/issues"
+  },
+  "homepage": "https://github.com/marcelx-silva/api-mobile#readme"
+}
