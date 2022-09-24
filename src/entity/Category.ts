@@ -28,3 +28,5 @@ class Category{
         this._name = name;
     }
 }
+
+export {Category}
