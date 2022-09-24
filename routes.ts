@@ -17,7 +17,8 @@ class Routes{
     authenticateUserController = new AuthenticateUserController();
 
     UserRoutes(){
-        router.post("/login", this.authenticateUserController.handle);router.use(ensureAuthenticated);
+        router.post("/login", this.authenticateUserController.handle);
+        router.use(ensureAuthenticated);
         router.get("/user",this.userController.listUser);
         router.post("/user",this.userController.createUser);
         router.put("/user",this.userController.updateUser);
