@@ -4,7 +4,9 @@
   "description": "API para E-commerce desenvolvida na aula de Dispositivos Mobile",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node src/index.ts",
+    "typeorm": "ts-node-dev ./node_modules/typeorm/cli.js"
   },
   "repository": {
     "type": "git",
