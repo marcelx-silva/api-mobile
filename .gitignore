@@ -105,3 +105,8 @@ dist
 
 # WebStorm
 /.idea
+
+# OrmConfig
+build/
+tmp/
+temp/

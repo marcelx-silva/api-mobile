@@ -1,43 +1,45 @@
 {
-  "name": "api-mobile",
-  "version": "1.0.0",
-  "description": "API para E-commerce desenvolvida na aula de Dispositivos Mobile",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "ts-node src/index.ts",
-    "typeorm": "ts-node-dev ./node_modules/typeorm/cli.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/marcelx-silva/api-mobile.git"
-  },
-  "keywords": [
-    "API",
-    "mobile"
-  ],
-  "author": "Thiago Marcelo",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/marcelx-silva/api-mobile/issues"
-  },
-  "homepage": "https://github.com/marcelx-silva/api-mobile#readme",
-  "devDependencies": {
-    "@types/bcryptjs": "^2.4.2",
-    "@types/jsonwebtoken": "^8.5.9",
-    "ts-node-dev": "^2.0.0",
-    "typescript": "^4.8.3"
-  },
-  "dependencies": {
-    "@types/express": "^4.17.14",
-    "@types/uuid": "^8.3.4",
-    "bcryptjs": "^2.4.3",
-    "class-transformer": "^0.5.1",
-    "express-async-errors": "^3.1.1",
-    "jsonwebtoken": "^8.5.1",
-    "pg": "^8.8.0",
-    "reflect-metadata": "^0.1.13",
-    "typeorm": "0.2.28",
-    "uuid": "^9.0.0"
-  }
+   "name": "api-mobile",
+   "version": "1.0.0",
+   "description": "API para E-commerce desenvolvida na aula de Dispositivos Mobile",
+   "main": "index.js",
+   "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "ts-node src/index.ts",
+      "typeorm": "ts-node-dev ./node_modules/typeorm/cli.js"
+   },
+   "repository": {
+      "type": "git",
+      "url": "git+https://github.com/marcelx-silva/api-mobile.git"
+   },
+   "keywords": [
+      "API",
+      "mobile"
+   ],
+   "author": "Thiago Marcelo",
+   "license": "MIT",
+   "bugs": {
+      "url": "https://github.com/marcelx-silva/api-mobile/issues"
+   },
+   "homepage": "https://github.com/marcelx-silva/api-mobile#readme",
+   "devDependencies": {
+      "@types/bcryptjs": "^2.4.2",
+      "@types/jsonwebtoken": "^8.5.9",
+      "ts-node-dev": "^2.0.0",
+      "typescript": "3.3.3333",
+      "ts-node": "3.3.0",
+      "@types/node": "^8.0.29"
+   },
+   "dependencies": {
+      "@types/express": "^4.17.14",
+      "@types/uuid": "^8.3.4",
+      "bcryptjs": "^2.4.3",
+      "class-transformer": "^0.5.1",
+      "express-async-errors": "^3.1.1",
+      "jsonwebtoken": "^8.5.1",
+      "pg": "^8.8.0",
+      "reflect-metadata": "^0.1.10",
+      "typeorm": "0.2.28",
+      "uuid": "^9.0.0"
+   }
 }
