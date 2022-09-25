@@ -10,7 +10,7 @@ export class User {
     firstName: string;
 
     @Column()
-    lastName: string;
+    lastName: string | undefined;
 
     @Column()
     age: number;

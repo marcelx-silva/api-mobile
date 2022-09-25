@@ -3,21 +3,20 @@ import {Entity, Column, PrimaryGeneratedColumn, UpdateDateColumn, CreateDateColu
 @Entity("Categories")
 class Category{
 
-    constructor(id:string, name:string) {
-        this._id = id;
+    constructor(name:string) {
         this._name = name;
     }
 
     @PrimaryGeneratedColumn("uuid")
-    private readonly _id:string;
+    private readonly id: string | undefined;
 
     @Column({
         length:35
     })
     private _name:string;
 
-    get getId():string{
-        return this._id;
+    get getId():string | undefined{
+        return <string>this.id;
     }
 
     get getNome():string{
